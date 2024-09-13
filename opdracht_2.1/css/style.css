@@ -31,7 +31,19 @@ body {
     color: white;
 }
 
-.html5-logo {
+.flex-container {
+    display: flex;
+    background-color: #4a4996;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.icon {
     height: 300px;
 }
 
