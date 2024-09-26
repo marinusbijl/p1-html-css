@@ -1,8 +1,22 @@
+.header {
+    height: 33vh;
+    padding: 60px;
+    text-align: center;
+    background-image: url("cockatiels.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 0px black;
+}
+
 h1 {
     font-size: 24px;
-    color: blue;
+    color: white;
     font-weight: bold;
     font-style: italic;
+    height: 33%;
+    width: 100%;
 }
 
 h2 {
@@ -17,8 +31,11 @@ h3 {
     font-weight: bold;
 }
 
-p {
-    color: #4d4d4d;
+p.border {
+    background: white;
+    border-style: dashed;
+    border-left-style: solid;
+    border-radius: 7px;
 }
 
 p:first-of-type {
@@ -28,4 +45,8 @@ p:first-of-type {
 a {
     color: #8a2be2;
     text-decoration: none;
+}
+
+img {
+    width: 50vh;
 }
