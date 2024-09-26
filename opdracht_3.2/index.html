@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3.2</title>
+</head>
+<body>
+    <h1>TUI Boekingsformulier</h1>
+    <form>
+        <label>Voornaam</label><br>
+        <input type="text" id="voornaam" name="voornaam"><br>
+        <label>Achternaam</label><br>
+        <input type="text" id="achternaam" name="achternaam"><br>
+        <label>Geslacht</label><br>
+        <input type="radio" id="man" name="geslacht" checked>Man<br>
+        <input type="radio" id="vrouw" name="geslacht">Vrouw<br>
+        <label>Straat met huisnummer</label><br>
+        <input type="text" id="huisnummer" name="huisnummer">><br>
+        <label>Postcode</label><br>
+        <input type="text" id="postcode" name="postcode">><br>
+        <label>Stad</label><br>
+        <input type="text" id="stad" name="stad">><br>
+        <label>Land</label><br>
+        <input type="text" id="land" name="land">><br>
+        <label>BSN-nummer → mag niet meer dan 9 cijfers</label><br>
+        <input type="text" id="bsn" name="bsn">><br>
+        <label>Vakantieland</label><br>
+        <input type="radio" id="frankrijk" name="vakantieland">Frankrijk<br>
+        <input type="radio" id="spanje" name="vakantieland">Spanje<br>
+        <input type="radio" id="duitsland" name="vakantieland">Duitsland<br>
+        <input type="radio" id="zwitserland" name="vakantieland">Zwitserland<br>
+        <label>Datum van vertrek</label><br>
+        <input type="date" id="vertrek" name="vertrek" min="2024-09-26"><br>
+        <label>Datum van terugkomst</label><br>
+        <input type="date" id="vertrek" name="vertrek" min="2024-09-27"><br>
+        <label>Aantal reisgenoten (max 4 mensen)</label><br>
+        <input type="number" id="reisgenoten" name="reisgenoten" min="1" max="4"><br>
+        <label><strong>Boek nu</strong></label><br>
+        <input type="submit" id="boeken" name="boeken"><br>
+        <label>E-mail</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label>Wachtwoord</label><br>
+        <input type="password" id="wachtwoord" name="wachtwoord"><br>
+    </form>
+</body>
+</html>
