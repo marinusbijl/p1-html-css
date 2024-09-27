@@ -3,23 +3,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 h1 {
+  padding: 70px;
+  text-align: center;
+  font-size: 60px;
   font-weight: bold;
 }
+
+h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 body {
   font-family: "Goldman", cursive;
-  background-image: url("img/hacker.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+body.dark {
+  background-color: black;
   color: white;
-  background-color: #191919;
+}
+
+body.hacker {
+  background-image: url("img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
 }
 
 nav {
   display: flex;
+  position: sticky;
+  top: 0;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
@@ -29,19 +62,23 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
@@ -49,7 +86,7 @@ nav img {
 footer {
   background-color: #00a8c7;
   color: white;
-  position: absolute;
+  margin-top: auto;
   bottom: 0;
   align-content: center;
   text-align: center;
