@@ -6,8 +6,16 @@
 html {
   font-size: 62.5%;
 }
+h1 {
+  font-weight: bold;
+}
 body {
   font-family: "Goldman", cursive;
+  background-image: url("img/hacker.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: #191919;
 }
 
 nav {
@@ -36,4 +44,15 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+footer {
+  background-color: #00a8c7;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  align-content: center;
+  text-align: center;
+  height: 10vh;
+  width: 100%;
 }
