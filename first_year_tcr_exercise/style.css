@@ -15,6 +15,11 @@ h1 {
   font-weight: bold;
 }
 
+h1.tcr {
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
 h2 {
   font-size: 30px;
   font-weight: lighter;
@@ -32,6 +37,10 @@ body {
 body.dark {
   background-color: black;
   color: white;
+}
+
+img {
+  padding-bottom: 50px;
 }
 
 body.hacker {
@@ -87,7 +96,7 @@ footer {
   background-color: #00a8c7;
   color: white;
   margin-top: auto;
-  bottom: 0;
+  font-size: 18px;
   align-content: center;
   text-align: center;
   height: 10vh;
