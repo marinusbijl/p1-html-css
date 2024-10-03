@@ -40,14 +40,6 @@ body.dark {
   color: white;
 }
 
-.container {
-  padding: 80px;
-}
-
-img {
-  margin-bottom: 60px;
-}
-
 body.hacker {
   background-image: url("img/background.jpeg");
   background-repeat: no-repeat;
@@ -56,11 +48,13 @@ body.hacker {
 }
 
 .left {
-  float: left
+  float: left;
+  margin-bottom: 60px;
 }
 
 .right {
-  float: right
+  float: right;
+  margin-bottom: 60px;
 }
 
 nav {
