@@ -57,6 +57,24 @@ body.hacker {
   margin-bottom: 60px;
 }
 
+#bericht {
+  height: 15rem;
+  width: 40rem;
+}
+
+#email {
+  width: 40rem;
+}
+
+#naam {
+  width: 40rem;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
 nav {
   display: flex;
   position: sticky;
