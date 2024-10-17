@@ -7,10 +7,18 @@ body {
     .flex-navbar {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         height: 10vh;
         padding-left: 2rem;
         color: white;
         background: rgb(80, 103, 189);
+    }
+
+    .dropdown-btn {
+        height: 20px;
+        width: 20px;
+        margin-right: 2rem;
+        background: white;
     }
     
     .flex-content {
