@@ -87,6 +87,7 @@ body {
     .flex-navbar {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         height: 10vh;
         padding-left: 2rem;
         color: white;
