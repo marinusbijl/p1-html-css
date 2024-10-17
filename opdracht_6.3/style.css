@@ -1,0 +1,8 @@
+.flex-navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: blue;
+}
